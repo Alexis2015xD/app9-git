@@ -21,7 +21,7 @@
 		 
 		 var options ={
 			 enableHighAccuracy : true,
-			 maximumAge: 360000
+			 maximumAge: 3600000
 		 }
 		 
 		 var watchID =navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
